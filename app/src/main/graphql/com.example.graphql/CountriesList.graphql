@@ -1,0 +1,9 @@
+query GetCountryList{
+    Flag {
+        svgFile
+        country {
+            name
+            capital
+        }
+    }
+}
